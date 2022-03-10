@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+   width: 100%;
+   float: left;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.logo-part{
+    width: 25%;
+    background-color: blue;
+    float: left;
+    padding:5px 10px 5px 50px ;
+}
+.logo-part img{
+    width: 21%;
+}
+.manu-part{
+    width: 40%;
+    background-color: blue;
+    float: left;
+    padding: 1px;
+}
+.manu-part ul{
+
+}
+.manu-part li{
+    text-align: center;
+    display: block;
+}
+.manu-part a{
+}
+.search-part{
+    width: 35%;
+    background-color:blue;
+    float: left;
+    padding: 20px;
+}
+input{
+    padding: 0px 28px 14px;
+}
+.hero-part{
+    width: 100%;
+    float: left;
+}
+.hero-writting-part{
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+.hero-img-part{
+    width: 50%;
+    float: left;
+}
+.hero-img-part img{
+    width: 60%;
+    text-align: center;
+}
+body{
+    background-image: url('../img/th.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
